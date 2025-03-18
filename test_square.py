@@ -25,6 +25,6 @@ def test_divisible_10(input_value):
     assert input_value % 10 ==0
 
 # parameterizing
-@pytest.mark.parametrize("num,output",[(1,11),(2,22),(3,35)])
+@pytest.mark.parametrize("num,output",[(1,11),(2,22),(3,33)])
 def test_multiple_11(num,output):
     assert 11*num == output
